@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    
+}
+body{
+    background: goldenrod;
+}
+.container{
+    max-width: 400px;
+    width: 100%;
+    height: 85vh;
+margin: 100px auto;
+background: white;
+}
+.header-znak{
+    font-size: 40px;
+    line-height: 40px;
+    color: rgb(21, 167, 21);
+}
+.header-p2{
+    font-size: 40px;
+    line-height: 40px;
+    color: rgb(21, 167, 21);
+}
+.header{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: chartreuse;
+    
+}
+.header_rerult{
+    display: flex;
+    gap: 20px;
+    
+}
+.header-p{
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 38px;
+    margin-left: 20px;
+}
+.pop{
+  font-size: 40px;
+    line-height: 40px;
+    color: rgb(21, 167, 21);
+}
+.buttons{
+    display: flex;
+}
+.button_left button{
+    width: 100px;
+}
+.button_left{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+flex-wrap: wrap;
+}
+.button-reght button{
+    width: 100px;
+}
+.button-reght{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+flex-direction: column;
+}
+button{
+    padding: 30px 0;
+    background: brown;
+    font-size: 30px;
+
+}
